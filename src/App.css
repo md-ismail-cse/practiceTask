@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #ddd;
+}
+.app{
+  background: #ddd;
+}
+.table{
+  width: 95%;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.green{
+  background: green;
+  color: #fff;font-size: 13px;
+  padding: 0 4px;
+  border-radius: 5px;
+}
+.red{
+  background: red;
+  color: #fff;font-size: 13px;
+  padding: 0 4px;
+  border-radius: 5px;
+}
+.yellow{
+  background: rgb(235, 161, 1);
+  font-size: 13px;
+  padding: 0 4px;
+  border-radius: 5px;
+}
+.actionBar {
+  border: 1px solid #919191;
+  font-size: 12px;
+  display: inline-block;
+  padding: 1px 1px;
+  color: #919191;
+}
+.MuiDataGrid-toolbarContainer  {
+  background: #ddd;
+  padding-bottom: 15px!important;
+}
+.MuiDataGrid-toolbarContainer button {
+  border: 1px solid #7e7b7b;
+  color: #7e7b7b;
+  background: #fff;
+  padding: 10px;
+}
+.MuiDataGrid-toolbarContainer button:nth-child(2) {
+  position: absolute;
+  right: 10px;
+}
+.rechart{
+  width: 95%;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 50px 20px;
+}
+.recharts-wrapper{
+  margin: 0 auto;
+}
